@@ -113,7 +113,7 @@ export function CoinFlipGame() {
 
   if (!publicKey) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center">
+      <div className="min-h-screen bg-black flex items-center justify-center">
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center">
           <h1 className="text-4xl font-bold text-white mb-6">Solana Coin Flip</h1>
           <p className="text-gray-300 mb-8">Connect your wallet to start playing</p>
